@@ -1,0 +1,23 @@
+{
+  "name": "tzkeys",
+  "version": "1.0.0",
+  "description": "simple microsservice for generating wallets on tezos blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js"
+  },
+  "keywords": [
+    "blockchain",
+    "microsservice"
+  ],
+  "author": "crzypatchwork",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "conseiljs": "^0.4.2",
+    "express": "latest",
+    "eztz-lib": "^0.1.2",
+    "sotez": "^0.7.1"
+  }
+}
